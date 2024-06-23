@@ -16,6 +16,9 @@ Neste projeto foram propostos as seguintes demandas:
 - Execução de métodos de recuperação de dados via SQLAlchemy
 
 
+Link do código: https://github.com/viniciusaze/projeto_integrando_python_sqlite/blob/main/main.py
+
+
 
 
 
