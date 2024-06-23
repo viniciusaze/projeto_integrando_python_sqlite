@@ -101,6 +101,7 @@ with Session(engine) as session:
 
 
 def main():
+    os.system('cls')
     choice = int(input("""---- BANK ----
     Select your choice
     [1] - View all clients
@@ -134,6 +135,9 @@ def user_choice(choice):
             count_client()
         elif choice == 0:
             end()
+        else:
+            print("[ERROR] Invalid number")
+            main()
     except ValueError:
         print("[ERROR] Invalid input: Please enter a number.")
         return_to_principal()
@@ -207,7 +211,11 @@ def client_balance(identifier):
 
 def count_client():
     os.system('cls')
+
+    print("Number of accounts:")
+
     stmt_count_client = select(func.count('*')).select_from(Client)
+
     for count in session.scalars(stmt_count_client):
         print(count)
     return_to_principal()
@@ -225,4 +233,5 @@ def end():
     os.system('cls')
 
 
-main()
+if __name__ == '__main__':
+    main()
