@@ -9,7 +9,7 @@
 O objetivo deste projeto é desenvolver uma aplicação que integre com um banco de dados SQLite, utilizando o ORM SQLAlchemy para gerenciar a comunicação com o banco. A aplicação deve seguir um esquema relacional predefinido, focado no contexto de cliente e conta, onde as classes Python representarão as tabelas do banco de dados. Além disso, o projeto inclui a inserção de um conjunto mínimo de dados para permitir a manipulação e teste das funcionalidades. Por fim, a aplicação deve ser capaz de executar métodos para recuperação e manipulação dos dados armazenados, demonstrando a eficácia do uso do SQLAlchemy em operações de banco de dados.
 
 ## Demandas
-Neste projeto foram propostos as seguintes demandas:
+Neste projeto foram propostas as seguintes demandas:
 
 - Aplicação com a definição do esquema por meio das classes usando SQLAlchemy
 - Inserção de um conjunto de dados mínimo para manipulação das informações
