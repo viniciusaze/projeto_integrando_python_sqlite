@@ -116,6 +116,7 @@ def main():
     user_choice(choice)
 
 
+# Functions
 def user_choice(choice):
     try:
         if choice == 1:
