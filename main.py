@@ -148,6 +148,9 @@ def user_choice(choice):
 
 
 def invalid_option():
+    """
+    Function called when the user enters an invalid value.
+    """
     os.system('cls')
     print("[ERROR] Invalid option")
     return_to_principal()
