@@ -157,6 +157,9 @@ def invalid_option():
 
 
 def view_clients():
+    """
+    Function called for view all clients.
+    """
     os.system('cls')
     stmt_all_client = select(Client)
     print("\nClients in Database")
